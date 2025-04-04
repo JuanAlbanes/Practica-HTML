@@ -1,0 +1,39 @@
+
+#condiciones{
+    display: block;
+}
+form input{
+    display: block;
+    margin: 10px;
+    color: rgb(187, 140, 189)
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+}
+#titulo-registro{
+    text-align: center;
+    color: rgb(150,10,200);
+}
+.boton{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+}
+.boton:hover{
+color: blueviolet;
+background-color: black;
+transform: scale(1.2);
+}
+.boton{
+    color: blueviolet;
+    border-radius: 100px;
+    margin: 10px
+}
+#titulo{
+    text-align: center;
+}
+img{
+    display: block;
+margin: auto;
+}

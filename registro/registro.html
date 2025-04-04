@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <br>
+    <hr>
+    <h1 id="titulo-registro">Registro</h1>
+    <div class="formulario">
+        <form action="">
+            <label for="nombre">Escribe tu nombre completo</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Nombre" >
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" required placeholder="Email">
+            <label for="contraseña">Contraseña</label>
+            <input type="password" name="contraseña" id="contraseña" minlength="8" required placeholder="Password">
+            <label for="date">Fecha de nacimiento</label>
+            <input type="date" name="date" id="date" required >
+            <label for="pais">Selecciona tu país</label>
+            <select name="pais" id="pais" required >
+                <option value="AR">Argentina</option>
+                <option value="BR">Brazil</option>
+                <option value="EG">Inglaterra</option>
+                <option value="null"  disabled selected >Selecciona el pais</option>
+            </select>
+            <label for="condiciones" id="condiciones">Acepto los términos y condiciones</label>
+            <input type="checkbox" id="condiciones" name="condiciones" required >
+            <label for="envio"></label>
+            <input type="submit" id="envio" name="envio" value="Registrarse" >
+        </form>
+    </div>
+    <a href="../index.html" ><button class="boton">Home</button></a>
+    <hr>
+</body>
+</html>
