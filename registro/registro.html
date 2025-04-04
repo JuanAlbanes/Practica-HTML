@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <br>
+    
     <hr>
     <h1 id="titulo-registro">Registro</h1>
     <div class="formulario">
-        <form action="">
+        <form action="" method="post">
             <label for="nombre">Escribe tu nombre completo</label>
             <input type="text" id="nombre" name="nombre" required placeholder="Nombre" >
             <label for="email">Correo electrónico</label>
@@ -27,7 +27,7 @@
                 <option value="EG">Inglaterra</option>
                 <option value="null"  disabled selected >Selecciona el pais</option>
             </select>
-            <label for="condiciones" id="condiciones">Acepto los términos y condiciones</label>
+            <label for="condiciones" class="condiciones">Acepto los términos y condiciones</label>
             <input type="checkbox" id="condiciones" name="condiciones" required >
             <label for="envio"></label>
             <input type="submit" id="envio" name="envio" value="Registrarse" >

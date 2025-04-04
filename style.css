@@ -1,5 +1,5 @@
 
-#condiciones{
+.condiciones{
     display: block;
 }
 form input{
@@ -19,16 +19,14 @@ form input{
     position: fixed;
     top: 0%;
     left: 0%;
+    color: blueviolet;
+    border-radius: 100px;
+    margin: 10px
 }
 .boton:hover{
 color: blueviolet;
 background-color: black;
 transform: scale(1.2);
-}
-.boton{
-    color: blueviolet;
-    border-radius: 100px;
-    margin: 10px
 }
 #titulo{
     text-align: center;
