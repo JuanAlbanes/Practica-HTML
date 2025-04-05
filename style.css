@@ -1,4 +1,12 @@
 
+/* Ya hacés css!!! buenísimo!!! Como veo que estás adelantado y tenés 4 días por delante para seguir aprendiendo,
+te invito a aprender sobre animaciones. Midudev tiene una mini clase de una hora donde podés aprender muchísimo para mejorar tu nivel de css
+Link: https://youtu.be/RwjgfNX41TE?si=VKPZrofhFEFoj05n
+o buscá "Aprende Animaciones con CSS y Scroll Animations sin JavaScript" en youtube.
+
+Te dejo una mini demostración de una animación en .boton:hover y .boton
+*/
+
 .condiciones{
     display: block;
 }
@@ -21,12 +29,14 @@ form input{
     left: 0%;
     color: blueviolet;
     border-radius: 100px;
-    margin: 10px
+    margin: 10px;
+    transition: scale ease-in-out 0.3s;
 }
 .boton:hover{
 color: blueviolet;
 background-color: black;
-transform: scale(1.2);
+scale: 1.2;
+transition: scale ease-in-out 0.4s;
 }
 #titulo{
     text-align: center;
