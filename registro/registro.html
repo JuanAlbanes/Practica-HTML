@@ -11,9 +11,9 @@
     <hr>
     <h1 id="titulo-registro">Registro</h1>
     <div class="formulario">
-        <form action="" method="post">
+        <form action="" method="post"> <!-- Epaaaa!!! method="post"... estás un paso adelante 😎 -->
             <label for="nombre">Escribe tu nombre completo</label>
-            <input type="text" id="nombre" name="nombre" required placeholder="Nombre" >
+            <input type="text" id="nombre" name="nombre" required placeholder="Nombre" >  <!-- Bien usando una sola palabra en inglés -->
             <label for="email">Correo electrónico</label>
             <input type="email" id="email" name="email" required placeholder="Email">
             <label for="contraseña">Contraseña</label>
@@ -25,15 +25,15 @@
                 <option value="AR">Argentina</option>
                 <option value="BR">Brazil</option>
                 <option value="EG">Inglaterra</option>
-                <option value="null"  disabled selected >Selecciona el pais</option>
+                <option value="null"  disabled selected >Selecciona el pais</option>  <!-- Me gustó mucho este agregado! -->
             </select>
             <label for="condiciones" class="condiciones">Acepto los términos y condiciones</label>
             <input type="checkbox" id="condiciones" name="condiciones" required >
-            <label for="envio"></label>
+            <label for="envio"></label>  <!-- Los botones de submit no necesitan Label -->
             <input type="submit" id="envio" name="envio" value="Registrarse" >
         </form>
     </div>
-    <a href="../index.html" ><button class="boton">Home</button></a>
+    <a href="../index.html" ><button class="boton">Home</button></a> <!-- Para el anchor podes prescindir del button y estilizarlo como si lo fuera -->
     <hr>
 </body>
 </html>
